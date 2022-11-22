@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Code</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div class="nav-links">
+                    <li><a id="home-link" href="#">Home</a></li>
+                    <li><a id="highscore-link" href="#">Leaderboard</a></li>
+                </div>
+                <li id="timers">Time: <span id="timer">0</span></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main" onload="renderHome()">
+        <h1>Code challange!</h1>
+        <p>You will have 100 seconds to complete all questions! At the end, enter your initials for Leaderboard.</p>
+    </main>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
